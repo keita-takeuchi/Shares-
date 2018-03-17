@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SharesApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header class="header">
+        <h1 id="siteTitle">Shares!</h1>
+        <p id="catchcopy">県大生の、県大生による、県大生のための情報共有の場 </p>
+        <nav class="globalNavi">
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="/">about</a></li>
+          <li><a href="/">contents</a></li>
+          <li><a href="/">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <%= yield %>
+
+    <footer id="pageFoot">
+      <p id="copyright"><small>Copyright Cheers! 2018</small></p>
+    </footer>
+  </body>
+</html>

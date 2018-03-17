@@ -1,0 +1,102 @@
+.header {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:110px;
+  background:#fff;
+}
+
+#siteTitle {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+#catchcopy {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+
+.globalNavi {
+  border: solid #CCCCCC;
+  border-width: 1px 0;
+}
+
+.globalNavi ul li {
+  list-style: none;
+  width: 25%;
+  float: left;
+  border-left: solid 1px #CCCCCC;
+  padding: 0 10px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.429;
+}
+
+.globalNavi ul {
+  margin:0;
+  padding:0;
+}
+
+.globalNavi ul:after{
+  content:"";
+  clear:both;
+  display:block;
+}
+
+.globalNavi ul li:first-child {
+  border-left: none;
+}
+
+.globalNavi ul li a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+}
+
+.globalNavi ul li a:hover {
+  background-color: #F2F2E5;
+}
+
+body {
+  margin: 0;
+  padding:0;
+}
+
+.siteIcatch {
+  padding: 5px;
+}
+
+.majorBox {
+  width: 49%;
+  height: 100px;
+  background: #EEEEEE;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.user_post {
+  border: solid 1px #000;
+}
+
+  footer {
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+#pageFoot {
+  border-top: solid 1px #CCCCCC;
+  margin-top: 15px;
+}
+
+#copyright small {
+  font-size:12px;
+  line-height: 1.5;
+}
